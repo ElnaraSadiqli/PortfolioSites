@@ -1,0 +1,92 @@
+//---------------Color adjust-------------------//
+$color-dark-green : rgba(0, 128, 128, 1);
+$color-light-grey : #E5E5E5;
+$color-dark-grey: rgba(92, 92, 92, 1);
+$color-wht: rgba(255, 255, 255, 1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------Letter Size adjust--------------//
+
+/* Small devices (mobile, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    // Font size-18px; height-21.15px; weight-200;
+    .card-user-txt-size {
+        font: normal 200 18px/21.15px 'Public Sans', sans-serif;
+    }
+
+    // Font size-28px; height-33px; weight-400;
+    .card-user-tt-size {
+        font: normal 400 28px/33px 'Public Sans', sans-serif;
+    }
+
+    // Font size-21px; height-45.5px; weight-200;
+    .card-plant-txt-size {
+        font: normal 200 21px/45.5px 'Public Sans', sans-serif;
+    }
+
+    // Font size-45px; height-52.88px; weight-300;
+    .card-plant-tt-size {
+        font: normal 300 45px/52.88px 'Public Sans', sans-serif;
+    }
+
+    // Font size-16px; height-23.5px; weight-400;
+    .card-plant-txt-size-sm {
+        font: normal 400 16px/23.5px 'Public Sans', sans-serif;
+    }
+
+    // Font size-35px; height-41.13px; weight-300;
+    .card-plant-tt-size-sm {
+        font: normal 300 35px/41.13px 'Public Sans', sans-serif;
+    }
+
+    // Font size-40px; height-47px; weight-400;
+    .page-section-titles {
+        font: normal 300 40px/41.13px 'Public Sans', sans-serif;
+    }
+
+    // Font size-138px; height-162.1px; weight-600;
+    .page-big-titles {
+        font: normal 600 100px/162.1px 'Public Sans', sans-serif;
+    }
+
+    // Font size-28px,height-33px ; weight-300;
+    .page-txt-size {
+        font: normal 200 22px/33px 'Public Sans', sans-serif;
+    }
+
+
+    // Font size-16px; height-18.8px; weight-700;
+    .product-price-size {
+        font: normal 300 35px/41.13px 'Public Sans', sans-serif;
+    }
+
+    // Font size-20px; height-23.5px; weight-400;
+    .product-name-size {
+        font: normal 400 20px/23.5px 'Public Sans', sans-serif;
+    }
+
+    .btn-txt-size {
+        font: normal 400 18px/23px 'Public Sans', sans-serif;
+
+    }
+}

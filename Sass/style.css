@@ -1,0 +1,283 @@
+/* Small devices (mobile, 600px and down) */
+/* Large devices (laptops/desktops, 992px and up) */
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
+@media only screen and (min-width: 992px) {
+  .card-user-txt-size {
+    font: normal 200 18px/21.15px 'Public Sans', sans-serif;
+  }
+  .card-user-tt-size {
+    font: normal 400 28px/33px 'Public Sans', sans-serif;
+  }
+  .card-plant-txt-size, #assortments .assortments-main-left-card .assortments-main-left-content .assortments-main-left-plants-name li {
+    font: normal 200 21px/45.5px 'Public Sans', sans-serif;
+  }
+  .card-plant-tt-size, #assortments .assortments-main-left-card .assortments-main-left-content h4, #assortments .assortments-main-left-card .assortments-main-left-content h4 span {
+    font: normal 300 45px/52.88px 'Public Sans', sans-serif;
+  }
+  .card-plant-txt-size-sm, #assortments .assortments-main-item-card .assortments-main-right-content .assortments-main-right-plants-name li {
+    font: normal 400 16px/23.5px 'Public Sans', sans-serif;
+  }
+  .card-plant-tt-size-sm, #assortments .assortments-main-item-card .assortments-main-right-content h4, #assortments .assortments-main-item-card .assortments-main-right-content h4 span {
+    font: normal 300 35px/41.13px 'Public Sans', sans-serif;
+  }
+  .page-section-titles, #assortments .assortments-title {
+    font: normal 300 40px/41.13px 'Public Sans', sans-serif;
+  }
+  .page-big-titles, #header #header-main .header-main-content .header-main-content-tt, #header #header-main .header-main-content .header-main-content-tt span {
+    font: normal 600 100px/162.1px 'Public Sans', sans-serif;
+  }
+  .page-txt-size, #header #header-main .header-main-content p {
+    font: normal 200 22px/33px 'Public Sans', sans-serif;
+  }
+  .product-price-size {
+    font: normal 300 35px/41.13px 'Public Sans', sans-serif;
+  }
+  .product-name-size {
+    font: normal 400 20px/23.5px 'Public Sans', sans-serif;
+  }
+  .btn-txt-size, #header #header-main .header-main-content .header-main-content-buttons button, #header #header-main .header-main-content .header-main-content-buttons button a {
+    font: normal 400 18px/23px 'Public Sans', sans-serif;
+  }
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  background-color: unset;
+  border: unset;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: 0em;
+  font-size: 16px;
+  font-family: 'Public Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffff;
+}
+
+/* Small devices (mobile, 600px and down) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .card-user-txt-size {
+    font: normal 200 18px/21.15px 'Public Sans', sans-serif;
+  }
+  .card-user-tt-size {
+    font: normal 400 28px/33px 'Public Sans', sans-serif;
+  }
+  .card-plant-txt-size, #assortments .assortments-main-left-card .assortments-main-left-content .assortments-main-left-plants-name li {
+    font: normal 200 21px/45.5px 'Public Sans', sans-serif;
+  }
+  .card-plant-tt-size, #assortments .assortments-main-left-card .assortments-main-left-content h4, #assortments .assortments-main-left-card .assortments-main-left-content h4 span {
+    font: normal 300 45px/52.88px 'Public Sans', sans-serif;
+  }
+  .card-plant-txt-size-sm, #assortments .assortments-main-item-card .assortments-main-right-content .assortments-main-right-plants-name li {
+    font: normal 400 16px/23.5px 'Public Sans', sans-serif;
+  }
+  .card-plant-tt-size-sm, #assortments .assortments-main-item-card .assortments-main-right-content h4, #assortments .assortments-main-item-card .assortments-main-right-content h4 span {
+    font: normal 300 35px/41.13px 'Public Sans', sans-serif;
+  }
+  .page-section-titles, #assortments .assortments-title {
+    font: normal 300 40px/41.13px 'Public Sans', sans-serif;
+  }
+  .page-big-titles, #header #header-main .header-main-content .header-main-content-tt, #header #header-main .header-main-content .header-main-content-tt span {
+    font: normal 600 100px/162.1px 'Public Sans', sans-serif;
+  }
+  .page-txt-size, #header #header-main .header-main-content p {
+    font: normal 200 22px/33px 'Public Sans', sans-serif;
+  }
+  .product-price-size {
+    font: normal 300 35px/41.13px 'Public Sans', sans-serif;
+  }
+  .product-name-size {
+    font: normal 400 20px/23.5px 'Public Sans', sans-serif;
+  }
+  .btn-txt-size, #header #header-main .header-main-content .header-main-content-buttons button, #header #header-main .header-main-content .header-main-content-buttons button a {
+    font: normal 400 18px/23px 'Public Sans', sans-serif;
+  }
+}
+
+#header {
+  background-color: teal;
+}
+
+#header #header-navbar {
+  padding: 21px 0px 22px 0px;
+  margin-bottom: 2px solid;
+}
+
+#header #header-navbar .header-navbar-logo {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#header #header-navbar .header-navbar-menu {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#header #header-navbar .header-navbar-menu li {
+  margin-right: 46px;
+}
+
+#header #header-navbar .header-navbar-menu li a {
+  font: normal 600 22px/25px 'Public Sans', sans-serif;
+}
+
+#header #header-main {
+  color: white;
+  padding-top: 3rem;
+}
+
+#header #header-main .header-main-content .header-main-content-mini-tt {
+  text-transform: uppercase;
+  font: normal 800 25px/20px 'Public Sans', sans-serif;
+  position: absolute;
+  top: 0.5rem;
+}
+
+#header #header-main .header-main-content .header-main-content-tt {
+  font-weight: 200;
+}
+
+#header #header-main .header-main-content p {
+  margin-top: 3rem;
+}
+
+#header #header-main .header-main-content .header-main-content-buttons {
+  margin-top: 3.5rem;
+}
+
+#header #header-main .header-main-content .header-main-content-buttons button {
+  padding: 15px 60px;
+  border: 1px solid white;
+  border-radius: 70px;
+  margin-right: 22px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#header #header-main .header-main-content .header-main-content-buttons button:nth-child(1) {
+  background-color: white;
+}
+
+#header #header-main .header-main-content .header-main-content-buttons button:nth-child(1) a {
+  color: teal;
+}
+
+#header #header-main .header-main-content .header-main-content-buttons button:nth-child(1):hover {
+  background-color: transparent;
+}
+
+#header #header-main .header-main-content .header-main-content-buttons button:nth-child(1):hover a {
+  color: white;
+}
+
+#header #header-main .header-main-content .header-main-content-buttons button:nth-child(2):hover {
+  background-color: white;
+}
+
+#header #header-main .header-main-content .header-main-content-buttons button:nth-child(2):hover a {
+  color: teal;
+}
+
+#header #header-main .header-main-img-after {
+  position: absolute;
+  top: 13rem;
+  left: 13rem;
+  background-color: white;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+}
+
+#header #header-main .header-main-image {
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#assortments {
+  padding-top: 4rem;
+  text-align: center;
+  color: #5c5c5c;
+}
+
+#assortments .assortments-main-item-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#assortments .assortments-main-item-card .assortments-main-item-image {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+}
+
+#assortments .assortments-main-item-card .assortments-main-right-content {
+  text-align: left;
+}
+
+#assortments .assortments-main-item-card .assortments-main-right-content h4 span {
+  font-weight: 700;
+}
+
+#assortments .assortments-main-item-card .assortments-main-right-content .assortments-main-right-button {
+  padding: 7px 24px;
+  border: 1px solid #5c5c5c;
+  border-radius: 70px;
+  font: normal 500 14px/16px 'Public Sans', sans-serif;
+}
+
+#assortments .assortments-main-left-card {
+  height: 487px;
+  border-radius: 40px 0px 0px 40px;
+  background-color: rgba(3, 135, 0, 0.3);
+}
+
+#assortments .assortments-main-left-card .assortments-main-left-content {
+  text-align: left;
+}
+
+#assortments .assortments-main-left-card .assortments-main-left-content h4 span {
+  font-weight: 700;
+}
+
+#assortments .assortments-main-left-card .assortments-main-left-content .assortments-main-left-button {
+  border: 1px solid #5c5c5c;
+  border-radius: 70px;
+  font: normal 500 20px/23.5px 'Public Sans', sans-serif;
+  padding: 11px 20px;
+}
+
+#assortments .assortments-main-right-first-card {
+  height: 228px;
+  border-radius: 0px 40px 0px 0px;
+  background-color: rgba(115, 195, 0, 0.35);
+}
+
+#assortments .assortments-main-right-second-card {
+  height: 228px;
+  border-radius: 0px 0px 40px 0px;
+  background-color: rgba(139, 176, 92, 0.35);
+  margin-top: 31px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,256 @@
+//..........................Header............//
+#header {
+    background-color: $color-dark-green;
+
+    // <!-- Header Navigation bar of Header  -->
+    #header-navbar {
+        padding: 21px 0px 22px 0px;
+        margin-bottom: 2px solid;
+
+        // Logo Of Header
+        .header-navbar-logo {
+            object-fit: contain;
+        }
+
+        //  Navigation Menu of Header 
+        .header-navbar-menu {
+            justify-content: flex-end;
+
+            // Navigation menu items of Header
+            li {
+                margin-right: 46px;
+
+                a {
+                    font: normal 600 22px/25px 'Public Sans', sans-serif;
+
+                }
+            }
+        }
+
+    }
+
+    // Main Section of Header
+    #header-main {
+        color: $color-wht;
+        padding-top: 3rem;
+
+        //Header Main Section Content of Header
+        .header-main-content {
+
+
+            // Header Main Section  Content Mini title of Header
+            .header-main-content-mini-tt {
+                text-transform: uppercase;
+                font: normal 800 25px/20px 'Public Sans', sans-serif;
+                position: absolute;
+                top: 0.5rem;
+
+            }
+
+            //Header Main Section  Content Title of Header
+            .header-main-content-tt {
+                @extend .page-big-titles;
+                font-weight: 200;
+
+                span {
+                    @extend .page-big-titles;
+                }
+            }
+
+            // Header Main section Content Description of Header in Left 
+            p {
+                @extend .page-txt-size;
+                margin-top: 3rem;
+            }
+
+            //Header Main section Content Buttons of Header in Left 
+            .header-main-content-buttons {
+                margin-top: 3.5rem;
+
+                // Header Main section Content Button  
+                button {
+                    @include button;
+                    margin-right: 22px;
+                    transition: 1s;
+
+                    // Header Main section Content First Button 
+                    &:nth-child(1) {
+                        background-color: $color-wht;
+
+                        a {
+                            color: $color-dark-green;
+                        }
+
+                        //  Header Main section Content First Button Hover effect
+                        &:hover {
+                            background-color: transparent;
+
+                            a {
+                                color: $color-wht;
+                            }
+                        }
+                    }
+
+                    // Header Main section Content Second Button 
+                    &:nth-child(2) {
+
+                        //  Header Main section Content First Button Hover effect
+                        &:hover {
+                            background-color: $color-wht;
+
+                            a {
+                                color: $color-dark-green;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+        //Header Main Section Image background white circle of Header
+        .header-main-img-after {
+            position: absolute;
+            top: 13rem;
+            left: 13rem;
+            background-color: $color-wht;
+            width: 700px;
+            height: 700px;
+            border-radius: 50%;
+        }
+
+        //Header Main Section Image of Header
+        .header-main-image {
+            position: relative;
+            object-fit: cover;
+
+        }
+
+
+    }
+
+
+}
+
+// ..........................Main..............//
+
+// Assortments Section //
+#assortments {
+    padding-top: 4rem;
+    text-align: center;
+    color: $color-dark-grey;
+
+    // Assortments Header Title
+    .assortments-title {
+        @extend .page-section-titles;
+    }
+
+    // Assortments Main Items
+    .assortments-main-item-card {
+        display: flex;
+        align-items: center;
+
+        //Assortments Main Item   Image 
+        .assortments-main-item-image {
+            object-fit: contain;
+            height: 100%;
+        }
+
+        //Assortments Main Item  Right  Cards Content  
+        .assortments-main-right-content {
+            text-align: left;
+
+            //Assortments Main Item  Right  Cards Title  
+            h4 {
+                @extend .card-plant-tt-size-sm;
+
+                span {
+                    font-weight: 700;
+                    @extend .card-plant-tt-size-sm;
+                }
+            }
+
+            //Assortments Main Item  Right  Cards Plants Name 
+            .assortments-main-right-plants-name {
+
+                li {
+                    @extend .card-plant-txt-size-sm;
+                }
+            }
+
+            // <!----Assortments Main Item  Right Cards button
+            .assortments-main-right-button {
+                padding: 7px 24px;
+                border: 1px solid $color-dark-grey;
+                border-radius: 70px;
+                font: normal 500 14px/16px 'Public Sans', sans-serif;
+
+            }
+        }
+    }
+
+
+    //Assortments Main Items Left Card
+    .assortments-main-left-card {
+        height: 487px;
+        border-radius: 40px 0px 0px 40px;
+        background-color: rgba(3, 135, 0, 0.3);
+
+        //Assortments Main Item  Left Content 
+        .assortments-main-left-content {
+            text-align: left;
+
+            //Assortments Main Item  Title
+            h4 {
+                @extend .card-plant-tt-size;
+
+                // Bolt Title     
+                span {
+                    @extend .card-plant-tt-size;
+                    font-weight: 700;
+                }
+            }
+
+            // Assortments Main Item Left Plants Name
+            .assortments-main-left-plants-name {
+              
+
+                li {
+                    @extend .card-plant-txt-size;
+                }
+            }
+
+            // Assortments Main Item Left button
+            .assortments-main-left-button {
+
+                border: 1px solid $color-dark-grey;
+                border-radius: 70px;
+                font: normal 500 20px/23.5px 'Public Sans', sans-serif;
+                padding: 11px 20px;
+                
+            }
+
+        }
+
+    }
+
+    //Assortments Main Items Right First Card
+    .assortments-main-right-first-card {
+        height: 228px;
+        border-radius: 0px 40px 0px 0px;
+        background-color: rgba(115, 195, 0, 0.35);
+      
+
+}
+
+    //Assortments Main Items  RightSecond Card
+    .assortments-main-right-second-card {
+        height: 228px;
+        border-radius: 0px 0px 40px 0px;
+        background-color: rgba(139, 176, 92, 0.35);
+        margin-top: 31px;
+
+    }
+
+}

@@ -1,0 +1,12 @@
+@import 'variables';
+
+@mixin button{
+padding: 15px 60px;
+border: 1px solid  $color-wht;
+border-radius: 70px;
+@extend .btn-txt-size;
+
+a{
+    @extend .btn-txt-size;
+}
+}
