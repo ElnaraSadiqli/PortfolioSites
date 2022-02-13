@@ -10,3 +10,10 @@ a{
     @extend .btn-txt-size;
 }
 }
+
+@mixin card-button{
+    color: $color-dark-grey;
+    border: 1px solid $color-dark-grey;
+    border-radius: 70px;
+     padding: 11px 35px;
+}

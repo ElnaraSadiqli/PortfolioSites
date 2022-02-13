@@ -2,6 +2,14 @@
 #header {
     background-color: $color-dark-green;
 
+    // Ellipse image back of the plant in Header
+    .header-ellipse-img {
+        position: absolute;
+        right: -3px;
+        top: 19.4rem;
+
+    }
+
     // <!-- Header Navigation bar of Header  -->
     #header-navbar {
         padding: 21px 0px 22px 0px;
@@ -22,11 +30,9 @@
 
                 a {
                     font: normal 600 22px/25px 'Public Sans', sans-serif;
-
                 }
             }
         }
-
     }
 
     // Main Section of Header
@@ -37,14 +43,12 @@
         //Header Main Section Content of Header
         .header-main-content {
 
-
             // Header Main Section  Content Mini title of Header
             .header-main-content-mini-tt {
                 text-transform: uppercase;
                 font: normal 800 25px/20px 'Public Sans', sans-serif;
                 position: absolute;
                 top: 0.5rem;
-
             }
 
             //Header Main Section  Content Title of Header
@@ -106,25 +110,11 @@
 
                 }
             }
-
-        }
-
-        //Header Main Section Image background white circle of Header
-        .header-main-img-after {
-            position: absolute;
-            top: 13rem;
-            left: 13rem;
-            background-color: $color-wht;
-            width: 700px;
-            height: 700px;
-            border-radius: 50%;
         }
 
         //Header Main Section Image of Header
         .header-main-image {
-            position: relative;
             object-fit: cover;
-
         }
 
 
@@ -135,7 +125,7 @@
 
 // ..........................Main..............//
 
-// Assortments Section //
+//.........Assortments Section //
 #assortments {
     padding-top: 4rem;
     text-align: center;
@@ -144,26 +134,25 @@
     // Assortments Header Title
     .assortments-title {
         @extend .page-section-titles;
+        padding-bottom: 5.5rem;
+
     }
 
-    // Assortments Main Items
-    .assortments-main-item-card {
+    // Assortments  Items
+    .assortments-item-card {
         display: flex;
         align-items: center;
+        position: relative;
 
-        //Assortments Main Item   Image 
-        .assortments-main-item-image {
-            object-fit: contain;
-            height: 100%;
-        }
-
-        //Assortments Main Item  Right  Cards Content  
-        .assortments-main-right-content {
+        //Assortments Item  Right  Cards Content  
+        .assortments-right-content {
             text-align: left;
+            padding: 29px 0px 31px 21px;
 
             //Assortments Main Item  Right  Cards Title  
             h4 {
                 @extend .card-plant-tt-size-sm;
+                padding-bottom: 0.5rem;
 
                 span {
                     font-weight: 700;
@@ -172,38 +161,43 @@
             }
 
             //Assortments Main Item  Right  Cards Plants Name 
-            .assortments-main-right-plants-name {
+            .assortments-right-plants-name {
 
                 li {
                     @extend .card-plant-txt-size-sm;
+
+                    // Last list oppacity
+                    &:last-child {
+                        opacity: 0.5;
+                    }
                 }
             }
 
             // <!----Assortments Main Item  Right Cards button
-            .assortments-main-right-button {
-                padding: 7px 24px;
-                border: 1px solid $color-dark-grey;
-                border-radius: 70px;
+            .assortments-right-button {
+                @include card-button;
                 font: normal 500 14px/16px 'Public Sans', sans-serif;
-
+                margin-top: 28px;
             }
         }
     }
 
 
-    //Assortments Main Items Left Card
-    .assortments-main-left-card {
+    //Assortments  Items Left Card
+    .assortments-left-card {
         height: 487px;
         border-radius: 40px 0px 0px 40px;
         background-color: rgba(3, 135, 0, 0.3);
 
         //Assortments Main Item  Left Content 
-        .assortments-main-left-content {
+        .assortments-left-content {
             text-align: left;
+            padding: 29px 0px 30px 40px;
 
             //Assortments Main Item  Title
             h4 {
                 @extend .card-plant-tt-size;
+                padding-bottom: 1.3rem;
 
                 // Bolt Title     
                 span {
@@ -213,44 +207,299 @@
             }
 
             // Assortments Main Item Left Plants Name
-            .assortments-main-left-plants-name {
-              
+            .assortments-left-plants-name {
+
 
                 li {
                     @extend .card-plant-txt-size;
+
+                    // Last list oppacity
+                    &:last-child {
+                        opacity: 0.5;
+                    }
                 }
             }
 
             // Assortments Main Item Left button
-            .assortments-main-left-button {
-
-                border: 1px solid $color-dark-grey;
-                border-radius: 70px;
+            .assortments-left-button {
                 font: normal 500 20px/23.5px 'Public Sans', sans-serif;
-                padding: 11px 20px;
-                
+                @include card-button;
+                margin-top: 78px;
             }
 
         }
 
+        //Assortments Main Items Left Image
+        .assortments-item-image-left {
+            position: absolute;
+            bottom: 0px;
+            right: -12px;
+        }
     }
 
-    //Assortments Main Items Right First Card
-    .assortments-main-right-first-card {
+    //Assortments  Items Right First Card
+    .assortments-right-first-card {
         height: 228px;
         border-radius: 0px 40px 0px 0px;
         background-color: rgba(115, 195, 0, 0.35);
-      
 
-}
+        //Assortments Main Item  Image First
+        .assortments-right-image-first {
+            object-fit: cover;
+            position: absolute;
+            right: -4.3rem;
+            bottom: 0.3rem;
+        }
+    }
 
-    //Assortments Main Items  RightSecond Card
-    .assortments-main-right-second-card {
+    //Assortments  Items  Right Second Card
+    .assortments-right-second-card {
         height: 228px;
         border-radius: 0px 0px 40px 0px;
         background-color: rgba(139, 176, 92, 0.35);
         margin-top: 31px;
 
+        //Assortments Main Item  Image Second
+        .assortments-right-image-second {
+            object-fit: cover;
+            position: absolute;
+            right: 5px;
+            bottom: 3px;
+        }
     }
 
+}
+
+//.........plantSlider Section //
+
+#plantSlider {
+    padding-top: 5rem;
+
+    // plantSlider Crads //
+    .plantSlider-card {
+        height: 15.2rem;
+        position: relative;
+        border-radius: 40px;
+        background-color: $color-somon;
+
+        // plantSlider Card Image //
+        img {
+            position: absolute;
+            bottom: -3px;
+        }
+
+
+    }
+
+    // PlantSlider reboot buttons
+    .slick-prev:before,
+    .slick-next:before {
+        display: none;
+    }
+
+    // PlantSlider new buttons
+    .button-plantSlider::before {
+        color: $color-dark-green;
+        font-size: 3rem;
+
+    }
+
+}
+
+//..........Important section // 
+#important {
+    color: $color-dark-grey;
+    text-align: center;
+    padding-top: 94px;
+
+    // Important Title // 
+    .important-tt {
+        @extend .page-section-titles;
+    }
+
+    // Important Description // 
+    .important-descrip {
+        margin-top: 36px;
+
+        p {
+            @extend .page-txt-size;
+        }
+
+    }
+
+    // Important Images
+    .important-images {
+        margin-top: 2rem;
+
+        // Important Image
+        img {
+            object-fit: cover;
+            width: 100%;
+        }
+
+        // Important Image Right
+        .important-images-rb {
+            margin-top: 24px;
+        }
+    }
+
+
+
+
+}
+
+// ..........Green Image section//
+#green-image {
+
+    padding-top: 119px;
+
+    // Green Image section content
+    .green-image-content {
+        background: url("../../Images/Feelgreen/feelgreenback.png") no-repeat center;
+        height: 626px;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+
+        // Green Image section gradient
+        &:before {
+            content: '';
+            background-color: rgba(0, 128, 128, 0.54);
+            mix-blend-mode: normal;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        // Green image title
+        .green-image-tt {
+            @extend .page-big-titles;
+            color: $color-wht;
+            position: relative;
+            left: 37%;
+            top: 41%;
+        }
+    }
+}
+
+//............Users section//
+#users {
+    padding-top: 6.5rem;
+    color: $color-dark-grey;
+
+    //Users section title
+    .users-tt {
+        @extend .page-section-titles;
+        text-align: center;
+        padding-bottom: 4rem;
+
+    }
+
+    //Users-cards
+    .user-card {
+
+        height: 16.06rem;
+        padding: 24px 26px 37px 42px;
+        background-color: $color-somon;
+        border-radius: 40px 40px 0px 40px;
+        position: relative;
+        margin-right: 1.5rem;
+
+        // Users Cards image
+        .user-img {
+            height: 7.1rem;
+            object-fit: cover;
+            position: absolute;
+            top: -2rem;
+            left: -2.5rem;
+        }
+
+        // User card 
+        .user-card-tt {
+            @extend .card-user-tt-size;
+            margin-left: 15%;
+            text-transform: capitalize;
+
+            b {
+                @extend .card-user-tt-size;
+                font-weight: 700;
+            }
+        }
+
+        // Card user impression
+        .user-card-impression {
+            @extend .card-user-txt-size;
+            margin-top: 2.75rem;
+        }
+    }
+
+
+
+}
+
+
+
+// ..............Footer.......//
+#footer {
+    background-color: $color-dark-green;
+    margin-top: 8.69rem;
+    color: $color-wht;
+
+    // Footer Top
+    .footer-top {
+        text-align: left;
+        padding: 6.93rem 0px 4rem;
+        border-bottom: 1px solid $color-wht;
+
+        // Footer top info number
+        .footer-top-num {
+            font: normal 500 1.25rem/2rem 'Public Sans', sans-serif;
+            padding: 1.5rem 0px 0.8rem;
+        }
+
+        // Footer top info mail
+        a {
+            font: normal 400 1rem/2rem 'Public Sans', sans-serif;
+        }
+
+        // Footer Top links title
+        .footer-top-links-tt {
+            font: normal 500 1.5rem/1.5rem 'Public Sans', sans-serif;
+            margin-bottom: 2rem;
+        }
+
+        // Footer Top  links
+        .footer-top-links {
+            li {
+                margin-bottom: 2.95rem;
+                font: normal 300 1rem/1.2rem 'Public Sans', sans-serif;
+
+            }
+        }
+
+        // Footer Top  links second
+        .footer-top-links-s {
+            margin-top: 3.1rem;
+        }
+
+        // Footer Top input
+        form{
+            margin-left: 38%;
+            label{
+                font: normal 600 1.2rem/1.5rem 'Public Sans', sans-serif;
+
+            }
+        }
+
+    }
+
+
+
+
+    // Footer Bottom
+
+    // Footer Logo
+    img {
+        object-fit: cover;
+    }
 }

@@ -3,6 +3,7 @@ $color-dark-green : rgba(0, 128, 128, 1);
 $color-light-grey : #E5E5E5;
 $color-dark-grey: rgba(92, 92, 92, 1);
 $color-wht: rgba(255, 255, 255, 1);
+$color-somon: rgba(196, 226, 226, 1);
 
 
 
@@ -29,9 +30,9 @@ $color-wht: rgba(255, 255, 255, 1);
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    // Font size-18px; height-21.15px; weight-200;
+    // Font size-18px; height-21px; weight-200;
     .card-user-txt-size {
-        font: normal 200 18px/21.15px 'Public Sans', sans-serif;
+        font: normal 200 18px/21px 'Public Sans', sans-serif;
     }
 
     // Font size-28px; height-33px; weight-400;
@@ -61,7 +62,7 @@ $color-wht: rgba(255, 255, 255, 1);
 
     // Font size-40px; height-47px; weight-400;
     .page-section-titles {
-        font: normal 300 40px/41.13px 'Public Sans', sans-serif;
+        font: normal 400 40px/47px 'Public Sans', sans-serif;
     }
 
     // Font size-138px; height-162.1px; weight-600;
@@ -71,7 +72,7 @@ $color-wht: rgba(255, 255, 255, 1);
 
     // Font size-28px,height-33px ; weight-300;
     .page-txt-size {
-        font: normal 200 22px/33px 'Public Sans', sans-serif;
+        font: normal 200 23.4px/33px 'Public Sans', sans-serif;
     }
 
 
