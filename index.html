@@ -46,23 +46,61 @@
     <!-- -------------Page of Header-------------->
     <header id="header">
 
-        <!--White ellipse back of the Plant on Header -->
-        <img class=" header-ellipse-img d-xl-none d-flex" src="Images/Header/EllipseWhite.png"
-            alt="EllipseWhiteImageInHeader"></img>
-
         <div class="container">
 
             <!-- Header Navigation bar of Header  -->
             <section id="header-navbar">
+
+                <!-- Desktop NavigationBar Menu -->
                 <div class="row align-items-center ">
+
                     <!-- Logo Of Header -->
                     <div class="col-lg-3">
                         <img src="Images/Header/HeaderLogo.png" alt="Header Logo" class="header-navbar-logo"
                             width="158px" height="62px">
                     </div>
 
+                    <!-- Responsive MenuBar for Mobile -->
+                    <div class="pos-f-t d-flex d-md-none">
+                        <div class="collapse" id="navbarToggleExternalContent">
+                            <div class=".bg-transparent p-4">
+                                <!-- Mobile Menubar -->
+                                <ul class="header-navbar-menu  mb-0 ">
+
+                                    <!-- Navigation Bar  Menu-Menu -->
+                                    <li class="header-navbar-item mt-2">
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <!-- Navigation Bar  Menu-Products -->
+                                    <li class="header-navbar-item mt-2">
+                                        <a href="#">Products</a>
+                                    </li>
+                                    <!-- Navigation Bar  Menu-About us -->
+                                    <li class="header-navbar-item mt-2">
+                                        <a href="#">About us</a>
+                                    </li>
+                                    <!-- Navigation Bar Menu -Contact us -->
+                                    <li class="header-navbar-item mt-2">
+                                        <a href="#">Contact us</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <nav class="navbar navbar-dark bg-transparent">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </nav>
+                    </div>
+
+
                     <!-- Navigation Menu of Header -->
                     <div class="col-lg-8">
+
+                        <!-- Desktop Menubar -->
                         <ul class="header-navbar-menu d-none d-md-flex mb-0 ">
 
                             <!-- Navigation Bar  Menu-Menu -->
@@ -84,10 +122,6 @@
 
                         </ul>
                     </div>
-
-                    <!-- Navigation Menu of Header for Mobile(small devices) -->
-                    <button class="header-navbar-menu-mobile d-flex d-md-none"> <i
-                            class="far fa-caret-square-down"></i></button>
 
                     <!-- Basket Of Header -->
                     <div class="col-lg-1">
@@ -124,6 +158,9 @@
 
                     <!-- Header Main section Image of Header in Right -->
                     <div class="col-12 col-lg-6">
+                        <!-- White ellipse back of the Plant on Header -->
+                        <img class=" header-ellipse-img d-xl-none d-flex" src="Images/Header/EllipseWhite.png"
+                            alt="EllipseWhiteImageInHeader"></img>
                         <img class="header-main-image w-100" src="Images/Header/plantinheader.png">
 
                     </div>
@@ -425,9 +462,6 @@
         </section>
     </main>
 
-
-
-
     <!-- ------------------Page of Footer-------------->
     <footer id="footer">
         <div class="container">
@@ -436,9 +470,10 @@
             <section class="footer-top">
                 <div class="row justify-content-between ">
                     <!-- Footer Top info -->
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <!-- Footer Top info logo -->
-                        <img src="Images/Header/HeaderLogo.png" alt="LogoInFooterTop" class="footer-logo" height="52px">
+                        <img src="Images/Header/HeaderLogo.png" alt="LogoInFooterTop" class="footer-logo-top"
+                            height="52px">
                         <!-- Footer Top info number -->
                         <p class="mb-0 footer-top-num">+1 (7635) 547-12-97</p>
                         <!-- Footer Top info mail-->
@@ -473,8 +508,8 @@
                     </div>
 
                     <!-- Footer Top input -->
-                    <div class="col-lg-4">
-                        <form action="#">
+                    <div class="col-lg-5">
+                        <form class="footer-top-input" action="#">
                             <label for="input-product">Subscribe</label> <br>
                             <input type="text" placeholder="Get product updates" id="input-product">
                             <i class="fa-solid fa-arrow-right"></i>
@@ -485,44 +520,35 @@
 
             </section>
 
-
             <!-- Footer Bottom -->
-            <section class="footer-bottom">
-                <div class="row">
+            <section class="footer-bottom ">
+                <!-- Footer bottom Social media -->
+                <ul class="footer-socials mb-0">
 
-                    <!-- Footer bottom Social media -->
-                    <div class="col-12 col-lg-4">
-                        <ul class="footer-socials mb-0">
+                    <!-- Footer bottom Social LinkedIn -->
+                    <li><a href="#" class="footer-social">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a></li>
+                    <!-- Footer bottom Social Facebook -->
+                    <li><a href="#" class="footer-social">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a></li>
+                    <!-- Footer bottom Social  Tweeter -->
+                    <li> <a href="#" class="footer-social">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a></li>
+                </ul>
 
-                            <!-- Footer bottom Social LinkedIn -->
-                            <li><a href="#" class="footer-social">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </a></li>
-                            <!-- Footer bottom Social Facebook -->
-                            <li><a href="#" class="footer-social">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a></li>
-                            <!-- Footer bottom Social  Tweeter -->
-                            <li> <a href="#" class="footer-social">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Footer bottom Product -->
-                    <div class="col-12 col-lg-3">
-                        <div class="footer-bottom-product">
-                            <span class="mb-0">A product of </span>
-                            <!-- Footer bottom Product logo-->
-                            <img src="Images/Header/HeaderLogo.png" alt="LogoInFooter" height="26px">
-                        </div>
-                    </div>
-
-                    <!-- Footer bottom Product reserved -->
-                    <div class="col-12 col-lg-5">
-                        <p class="footer-bottom-reserv">© 2021 My Plants All rights reserved</p>
-                    </div>
+                <!-- Footer bottom Product -->
+                <div class="footer-bottom-product">
+                    <span class="mb-0">A product of </span>
+                    <!-- Footer bottom Product logo-->
+                    <img src="Images/Header/HeaderLogo.png" alt="LogoInFooter" height="26px" class="footer-logo-bottom">
                 </div>
+
+                <!-- Footer bottom Product reserved -->
+                <p class="footer-bottom-reserv">© 2021 My Plants All rights reserved</p>
+
             </section>
 
         </div>

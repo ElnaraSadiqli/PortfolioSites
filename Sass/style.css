@@ -1,43 +1,50 @@
-/* Small devices (mobile, 600px and down) */
-/* Large devices (laptops/desktops, 992px and up) */
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
-@media only screen and (min-width: 992px) {
-  .card-user-txt-size, #users .user-card .user-card-impression {
-    font: normal 200 18px/21px 'Public Sans', sans-serif;
-  }
-  .card-user-tt-size, #users .user-card .user-card-tt, #users .user-card .user-card-tt b {
-    font: normal 400 28px/33px 'Public Sans', sans-serif;
-  }
-  .card-plant-txt-size, #assortments .assortments-left-card .assortments-left-content .assortments-left-plants-name li {
-    font: normal 200 21px/45.5px 'Public Sans', sans-serif;
-  }
-  .card-plant-tt-size, #assortments .assortments-left-card .assortments-left-content h4, #assortments .assortments-left-card .assortments-left-content h4 span {
-    font: normal 300 45px/52.88px 'Public Sans', sans-serif;
-  }
-  .card-plant-txt-size-sm, #assortments .assortments-item-card .assortments-right-content .assortments-right-plants-name li {
-    font: normal 400 16px/23.5px 'Public Sans', sans-serif;
-  }
-  .card-plant-tt-size-sm, #assortments .assortments-item-card .assortments-right-content h4, #assortments .assortments-item-card .assortments-right-content h4 span {
-    font: normal 300 35px/41.13px 'Public Sans', sans-serif;
-  }
-  .page-section-titles, #assortments .assortments-title, #important .important-tt, #users .users-tt {
-    font: normal 400 40px/47px 'Public Sans', sans-serif;
-  }
-  .page-big-titles, #header #header-main .header-main-content .header-main-content-tt, #header #header-main .header-main-content .header-main-content-tt span, #green-image .green-image-content .green-image-tt {
-    font: normal 600 100px/162.1px 'Public Sans', sans-serif;
-  }
-  .page-txt-size, #header #header-main .header-main-content p, #important .important-descrip p {
-    font: normal 200 23.4px/33px 'Public Sans', sans-serif;
-  }
-  .product-price-size {
-    font: normal 300 35px/41.13px 'Public Sans', sans-serif;
-  }
-  .product-name-size {
-    font: normal 400 20px/23.5px 'Public Sans', sans-serif;
-  }
-  .btn-txt-size, #header #header-main .header-main-content .header-main-content-buttons button, #header #header-main .header-main-content .header-main-content-buttons button a {
-    font: normal 400 18px/23px 'Public Sans', sans-serif;
-  }
+.card-user-txt-size, #users .user-card .user-card-impression {
+  font: normal 200 1.125rem/1.31rem 'Public Sans', sans-serif;
+}
+
+.card-user-tt-size, #users .user-card .user-card-tt, #users .user-card .user-card-tt b {
+  font: normal 400 1.75rem/2.06rem 'Public Sans', sans-serif;
+}
+
+.card-plant-txt-size, #assortments .assortments-left-card .assortments-left-content .assortments-left-plants-name li {
+  font: normal 200 1.31rem/2.84rem 'Public Sans', sans-serif;
+}
+
+.card-plant-tt-size, #assortments .assortments-left-card .assortments-left-content h4, #assortments .assortments-left-card .assortments-left-content h4 span {
+  font: normal 300 2.81rem/3.3rem 'Public Sans', sans-serif;
+}
+
+.card-plant-txt-size-sm, #assortments .assortments-item-card .assortments-right-content .assortments-right-plants-name li {
+  font: normal 400 1rem/1.47rem 'Public Sans', sans-serif;
+}
+
+.card-plant-tt-size-sm, #assortments .assortments-item-card .assortments-right-content h4, #assortments .assortments-item-card .assortments-right-content h4 span {
+  font: normal 300 2.19rem/2.57rem 'Public Sans', sans-serif;
+}
+
+.page-section-titles, #assortments .assortments-title, #important .important-tt, #users .users-tt {
+  font: normal 400 2.5rem/2.94rem 'Public Sans', sans-serif;
+}
+
+.page-big-titles, #header #header-main .header-main-content .header-main-content-tt, #header #header-main .header-main-content .header-main-content-tt span, #green-image .green-image-content .green-image-tt {
+  font: normal 600 6.25rem/10.13rem 'Public Sans', sans-serif;
+}
+
+.page-txt-size, #header #header-main .header-main-content p, #important .important-descrip p {
+  font: normal 200 1.75rem/2.06rem "Public Sans", sans-serif;
+}
+
+.product-price-size {
+  font: normal 300 1rem/1.175rem 'Public Sans', sans-serif;
+}
+
+.product-name-size {
+  font: normal 400 1.25rem/1.47rem 'Public Sans', sans-serif;
+}
+
+.btn-txt-size, #header #header-main .header-main-content .header-main-content-buttons button, #header #header-main .header-main-content .header-main-content-buttons button a {
+  font: normal 400 1.125rem/1.44rem 'Public Sans', sans-serif;
 }
 
 ul li {
@@ -59,6 +66,11 @@ button {
   font-family: 'Public Sans', sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
 a {
   text-decoration: none;
   color: #ffff;
@@ -69,45 +81,52 @@ a:hover {
   color: #ffff;
 }
 
-/* Small devices (mobile, 600px and down) */
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .card-user-txt-size, #users .user-card .user-card-impression {
-    font: normal 200 18px/21px 'Public Sans', sans-serif;
-  }
-  .card-user-tt-size, #users .user-card .user-card-tt, #users .user-card .user-card-tt b {
-    font: normal 400 28px/33px 'Public Sans', sans-serif;
-  }
-  .card-plant-txt-size, #assortments .assortments-left-card .assortments-left-content .assortments-left-plants-name li {
-    font: normal 200 21px/45.5px 'Public Sans', sans-serif;
-  }
-  .card-plant-tt-size, #assortments .assortments-left-card .assortments-left-content h4, #assortments .assortments-left-card .assortments-left-content h4 span {
-    font: normal 300 45px/52.88px 'Public Sans', sans-serif;
-  }
-  .card-plant-txt-size-sm, #assortments .assortments-item-card .assortments-right-content .assortments-right-plants-name li {
-    font: normal 400 16px/23.5px 'Public Sans', sans-serif;
-  }
-  .card-plant-tt-size-sm, #assortments .assortments-item-card .assortments-right-content h4, #assortments .assortments-item-card .assortments-right-content h4 span {
-    font: normal 300 35px/41.13px 'Public Sans', sans-serif;
-  }
-  .page-section-titles, #assortments .assortments-title, #important .important-tt, #users .users-tt {
-    font: normal 400 40px/47px 'Public Sans', sans-serif;
-  }
-  .page-big-titles, #header #header-main .header-main-content .header-main-content-tt, #header #header-main .header-main-content .header-main-content-tt span, #green-image .green-image-content .green-image-tt {
-    font: normal 600 100px/162.1px 'Public Sans', sans-serif;
-  }
-  .page-txt-size, #header #header-main .header-main-content p, #important .important-descrip p {
-    font: normal 200 23.4px/33px 'Public Sans', sans-serif;
-  }
-  .product-price-size {
-    font: normal 300 35px/41.13px 'Public Sans', sans-serif;
-  }
-  .product-name-size {
-    font: normal 400 20px/23.5px 'Public Sans', sans-serif;
-  }
-  .btn-txt-size, #header #header-main .header-main-content .header-main-content-buttons button, #header #header-main .header-main-content .header-main-content-buttons button a {
-    font: normal 400 18px/23px 'Public Sans', sans-serif;
-  }
+.card-user-txt-size, #users .user-card .user-card-impression {
+  font: normal 200 1.125rem/1.31rem 'Public Sans', sans-serif;
+}
+
+.card-user-tt-size, #users .user-card .user-card-tt, #users .user-card .user-card-tt b {
+  font: normal 400 1.75rem/2.06rem 'Public Sans', sans-serif;
+}
+
+.card-plant-txt-size, #assortments .assortments-left-card .assortments-left-content .assortments-left-plants-name li {
+  font: normal 200 1.31rem/2.84rem 'Public Sans', sans-serif;
+}
+
+.card-plant-tt-size, #assortments .assortments-left-card .assortments-left-content h4, #assortments .assortments-left-card .assortments-left-content h4 span {
+  font: normal 300 2.81rem/3.3rem 'Public Sans', sans-serif;
+}
+
+.card-plant-txt-size-sm, #assortments .assortments-item-card .assortments-right-content .assortments-right-plants-name li {
+  font: normal 400 1rem/1.47rem 'Public Sans', sans-serif;
+}
+
+.card-plant-tt-size-sm, #assortments .assortments-item-card .assortments-right-content h4, #assortments .assortments-item-card .assortments-right-content h4 span {
+  font: normal 300 2.19rem/2.57rem 'Public Sans', sans-serif;
+}
+
+.page-section-titles, #assortments .assortments-title, #important .important-tt, #users .users-tt {
+  font: normal 400 2.5rem/2.94rem 'Public Sans', sans-serif;
+}
+
+.page-big-titles, #header #header-main .header-main-content .header-main-content-tt, #header #header-main .header-main-content .header-main-content-tt span, #green-image .green-image-content .green-image-tt {
+  font: normal 600 6.25rem/10.13rem 'Public Sans', sans-serif;
+}
+
+.page-txt-size, #header #header-main .header-main-content p, #important .important-descrip p {
+  font: normal 200 1.75rem/2.06rem "Public Sans", sans-serif;
+}
+
+.product-price-size {
+  font: normal 300 1rem/1.175rem 'Public Sans', sans-serif;
+}
+
+.product-name-size {
+  font: normal 400 1.25rem/1.47rem 'Public Sans', sans-serif;
+}
+
+.btn-txt-size, #header #header-main .header-main-content .header-main-content-buttons button, #header #header-main .header-main-content .header-main-content-buttons button a {
+  font: normal 400 1.125rem/1.44rem 'Public Sans', sans-serif;
 }
 
 #header {
@@ -121,7 +140,7 @@ a:hover {
 }
 
 #header #header-navbar {
-  padding: 21px 0px 22px 0px;
+  padding: 1.31rem 0px 1.38rem 0px;
   margin-bottom: 2px solid;
 }
 
@@ -137,11 +156,11 @@ a:hover {
 }
 
 #header #header-navbar .header-navbar-menu li {
-  margin-right: 46px;
+  margin-right: 2.875rem;
 }
 
 #header #header-navbar .header-navbar-menu li a {
-  font: normal 600 22px/25px 'Public Sans', sans-serif;
+  font: normal 600 1.38rem/1.56rem 'Public Sans', sans-serif;
 }
 
 #header #header-main {
@@ -151,7 +170,7 @@ a:hover {
 
 #header #header-main .header-main-content .header-main-content-mini-tt {
   text-transform: uppercase;
-  font: normal 800 25px/20px 'Public Sans', sans-serif;
+  font: normal 800 1.56rem/1.25rem 'Public Sans', sans-serif;
   position: absolute;
   top: 0.5rem;
 }
@@ -172,7 +191,7 @@ a:hover {
   padding: 15px 60px;
   border: 1px solid white;
   border-radius: 70px;
-  margin-right: 22px;
+  margin-right: 1.38rem;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -228,7 +247,7 @@ a:hover {
 
 #assortments .assortments-item-card .assortments-right-content {
   text-align: left;
-  padding: 29px 0px 31px 21px;
+  padding: 1.81rem 0px 1.94rem 1.31rem;
 }
 
 #assortments .assortments-item-card .assortments-right-content h4 {
@@ -248,19 +267,19 @@ a:hover {
   border: 1px solid #5c5c5c;
   border-radius: 70px;
   padding: 11px 35px;
-  font: normal 500 14px/16px 'Public Sans', sans-serif;
-  margin-top: 28px;
+  font: normal 500 0.875rem/1rem "Public Sans", sans-serif;
+  margin-top: 1.75rem;
 }
 
 #assortments .assortments-left-card {
-  height: 487px;
-  border-radius: 40px 0px 0px 40px;
+  height: 30.44rem;
+  border-radius: 2.5rem 0px 0px 2.5rem;
   background-color: rgba(3, 135, 0, 0.3);
 }
 
 #assortments .assortments-left-card .assortments-left-content {
   text-align: left;
-  padding: 29px 0px 30px 40px;
+  padding: 1.81rem 0px 1.875rem 2.5rem;
 }
 
 #assortments .assortments-left-card .assortments-left-content h4 {
@@ -276,12 +295,12 @@ a:hover {
 }
 
 #assortments .assortments-left-card .assortments-left-content .assortments-left-button {
-  font: normal 500 20px/23.5px 'Public Sans', sans-serif;
+  font: normal 500 1.25rem/1.47rem 'Public Sans', sans-serif;
   color: #5c5c5c;
   border: 1px solid #5c5c5c;
   border-radius: 70px;
   padding: 11px 35px;
-  margin-top: 78px;
+  margin-top: 4.875rem;
 }
 
 #assortments .assortments-left-card .assortments-item-image-left {
@@ -292,7 +311,7 @@ a:hover {
 
 #assortments .assortments-right-first-card {
   height: 228px;
-  border-radius: 0px 40px 0px 0px;
+  border-radius: 0px 2.5rem 0px 0px;
   background-color: rgba(115, 195, 0, 0.35);
 }
 
@@ -326,7 +345,7 @@ a:hover {
 #plantSlider .plantSlider-card {
   height: 15.2rem;
   position: relative;
-  border-radius: 40px;
+  border-radius: 2.5rem;
   background-color: #c4e2e2;
 }
 
@@ -348,11 +367,11 @@ a:hover {
 #important {
   color: #5c5c5c;
   text-align: center;
-  padding-top: 94px;
+  padding-top: 5.875rem;
 }
 
 #important .important-descrip {
-  margin-top: 36px;
+  margin-top: 2.25rem;
 }
 
 #important .important-images {
@@ -366,16 +385,16 @@ a:hover {
 }
 
 #important .important-images .important-images-rb {
-  margin-top: 24px;
+  margin-top: 1.5rem;
 }
 
 #green-image {
-  padding-top: 119px;
+  padding-top: 7.44rem;
 }
 
 #green-image .green-image-content {
   background: url("../../Images/Feelgreen/feelgreenback.png") no-repeat center;
-  height: 626px;
+  height: 39.125rem;
   width: 100%;
   background-size: cover;
   position: relative;
@@ -450,6 +469,12 @@ a:hover {
   border-bottom: 1px solid white;
 }
 
+#footer .footer-top .footer-logo-top {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 8.125rem;
+}
+
 #footer .footer-top .footer-top-num {
   font: normal 500 1.25rem/2rem 'Public Sans', sans-serif;
   padding: 1.5rem 0px 0.8rem;
@@ -473,8 +498,73 @@ a:hover {
   margin-top: 3.1rem;
 }
 
-#footer img {
+#footer .footer-top .footer-top-input {
+  margin-left: 38%;
+}
+
+#footer .footer-top .footer-top-input label {
+  font: normal 400 1.2rem/2.8rem 'Public Sans', sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+#footer .footer-top .footer-top-input input {
+  font: normal 400 1rem/0.875rem 'Public Sans', sans-serif;
+  padding: 1.21rem 2rem 1.11rem 0.97rem;
+}
+
+#footer .footer-top .footer-top-input input:focus {
+  outline: unset;
+  border: 3px solid #E5E5E5;
+}
+
+#footer .footer-top .footer-top-input i {
+  margin-left: 8px;
+  font-size: 1.3rem;
+}
+
+#footer .footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3rem 0px;
+}
+
+#footer .footer-bottom .footer-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer .footer-bottom .footer-socials li {
+  margin-right: 0.5rem;
+}
+
+#footer .footer-bottom .footer-socials li i {
+  width: 2.3rem;
+  height: 2.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.589);
+  border-radius: 50%;
+  font-size: 1rem;
+  padding: 0.6rem 0.625rem;
+}
+
+#footer .footer-bottom .footer-bottom-product {
+  margin: 0 auto;
+  font: normal 400 1rem/1.175rem 'Public Sans', sans-serif;
+}
+
+#footer .footer-bottom .footer-bottom-product .footer-logo-bottom {
+  width: 4.125rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
