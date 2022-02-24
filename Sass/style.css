@@ -188,7 +188,7 @@ a:hover {
 }
 
 #header #header-main .header-main-content .header-main-content-buttons button {
-  padding: 15px 60px;
+  padding: 15px 3rem;
   border: 1px solid white;
   border-radius: 70px;
   margin-right: 1.38rem;
@@ -412,8 +412,15 @@ a:hover {
 #green-image .green-image-content .green-image-tt {
   color: white;
   position: relative;
-  left: 37%;
-  top: 41%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #users {
@@ -564,7 +571,7 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   * {
-    font-size: 10px;
+    font-size: 1px;
   }
 }
 /*# sourceMappingURL=style.css.map */

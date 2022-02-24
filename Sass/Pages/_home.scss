@@ -363,8 +363,9 @@
             @extend .page-big-titles;
             color: $color-wht;
             position: relative;
-            left: 37%;
-            top: 41%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
         }
     }
 }
