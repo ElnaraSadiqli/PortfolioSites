@@ -6,13 +6,122 @@
     font-size: 12px;
   }
 
+
+  // Header for Mobile
+  #header {
+
+    // Header Navbar Menu
+    #header-navbar {
+      padding: 2px 5px;
+    }
+
+    // Header Main
+    #header-main {
+
+      // Header Main Content Buttons
+      button {
+        margin-top: 1rem;
+      }
+
+      // Header main image
+      .header-main-image {
+        margin-top: 2rem;
+      }
+
+    }
+  }
+
+  // Assortments section for Mobile
+  #assortments {
+
+    // Assortsments section item cards
+    .assortments-item-card {
+      border-radius: 1rem;
+      margin-top: 1.2rem;
+
+
+    }
+
+
+  }
+
+  // PlantSlider section for Mobile
+  #plantSlider {
+
+
+    .slick-prev {
+      left: -10px;
+    }
+
+    .slick-next {
+      right: -10px;
+    }
+  }
+
+  // Important section for Mobile
+  #important {
+
+    // Important section images
+    .important-images {
+      img {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  // User section  for Mobile
+  #users {
+    padding: 2rem;
+
+    // User section card
+    .user-card {
+      margin-top: 3rem;
+
+    }
+  }
+
+  // Footer section  for Mobile
+  #footer {
+
+// Footer section link top
+    .footer-top {
+
+      // Footer  section  links title (Quick Links) 
+      .footer-top-links-tt {
+        margin-top: 2rem;
+      }
+
+      // Footer Top  links second
+      .footer-top-links-s {
+      position: relative;
+      bottom: 3.5rem;
+      }
+
+      // 
+
+    }
+
+    // Fotter section bottom
+    .footer-bottom{
+      display: flex;
+      flex-direction: column;
+div{
+  margin-top: 1.5rem;
 }
 
-// /* Medium devices (landscape tablets, 768px and up) */
-// @media only screen and (min-width: 768px) {...}
 
-// /* Large devices (laptops/desktops, 992px and up) */
-// @media only screen and (min-width: 992px) {...}
+    }
+  }
+}
 
-// /* Extra large devices (large laptops and desktops, 1200px and up) */
-// @media only screen and (min-width: 1200px) {...}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

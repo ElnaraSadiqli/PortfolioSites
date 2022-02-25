@@ -2,13 +2,14 @@
 #header {
     background-color: $color-dark-green;
 
-        // Ellipse image back of the plant in Header
-        .header-ellipse-img {
-            position: absolute;
-            right: -3px;
-            top: 19.4rem;
-    
-        }
+    // Ellipse image back of the plant in Header
+    .header-ellipse-img {
+        position: absolute;
+        right: -3px;
+        top: 19.4rem;
+
+    }
+
     // <!-- Header Navigation bar of Header  -->
     #header-navbar {
         padding: 1.31rem 0px 1.38rem 0px;
@@ -106,7 +107,7 @@
                             }
                         }
                     }
-}
+                }
             }
         }
 
@@ -114,7 +115,7 @@
         .header-main-image {
             object-fit: cover;
         }
- }
+    }
 }
 
 // ..........................Main..............//
@@ -137,6 +138,11 @@
         display: flex;
         align-items: center;
         position: relative;
+
+        button {
+            position: relative;
+            z-index: 2;
+        }
 
         //Assortments Item  Right  Cards Content  
         .assortments-right-content {
@@ -227,12 +233,13 @@
             position: absolute;
             bottom: 0px;
             right: -12px;
+            height: 35rem;
         }
     }
 
     //Assortments  Items Right First Card
     .assortments-right-first-card {
-        height: 228px;
+        height: 14.25rem;
         border-radius: 0px 2.5rem 0px 0px;
         background-color: rgba(115, 195, 0, 0.35);
 
@@ -240,14 +247,15 @@
         .assortments-right-image-first {
             object-fit: cover;
             position: absolute;
-            right: -4.3rem;
-            bottom: 0.3rem;
+            right: -3rem;
+            bottom: 1rem;
+            height: 16rem;
         }
     }
 
     //Assortments  Items  Right Second Card
     .assortments-right-second-card {
-        height: 228px;
+        height: 14.25rem;
         border-radius: 0px 0px 40px 0px;
         background-color: rgba(139, 176, 92, 0.35);
         margin-top: 31px;
@@ -258,6 +266,7 @@
             position: absolute;
             right: 5px;
             bottom: 3px;
+            height: 13rem;
         }
     }
 
@@ -363,9 +372,10 @@
             @extend .page-big-titles;
             color: $color-wht;
             position: relative;
-           display: flex;
-           align-items: center;
-           justify-content: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
         }
     }
 }
@@ -386,7 +396,7 @@
     .user-card {
 
         height: 16.06rem;
-        padding: 24px 26px 37px 42px;
+        padding: 1.5rem 1.625rem 2.3125rem 2.625rem;
         background-color: $color-somon;
         border-radius: 40px 40px 0px 40px;
         position: relative;
@@ -440,7 +450,8 @@
         // Footer top Logo
         .footer-logo-top {
             object-fit: cover;
-            width: 8.125rem;
+            height: 3.875rem;
+            
         }
 
         // Footer top info number
@@ -454,7 +465,7 @@
             font: normal 400 1rem/2rem 'Public Sans', sans-serif;
         }
 
-        // Footer Top links title
+        // Footer Top links title (Quick Links) 
         .footer-top-links-tt {
             font: normal 500 1.5rem/1.5rem 'Public Sans', sans-serif;
             margin-bottom: 2rem;
@@ -471,12 +482,11 @@
 
         // Footer Top  links second
         .footer-top-links-s {
-            margin-top: 3.1rem;
+            margin-top: 3.5rem;
         }
 
         // Footer Top input
         .footer-top-input {
-            margin-left: 38%;
 
             // Footer top input label (title)
             label {
@@ -491,7 +501,7 @@
 
                 &:focus {
                     outline: unset;
-                    border: 3px solid $color-light-grey;
+                    border: 1px solid $color-light-grey;
                 }
             }
 
@@ -532,12 +542,12 @@
 
         // Footer Bottom Product
         .footer-bottom-product {
-            margin: 0 auto;
+          
             font: normal 400 1rem/1.175rem 'Public Sans', sans-serif;
 
             // Footer Logo Bottom
             .footer-logo-bottom {
-                width: 4.125rem;
+                height: 1.625rem;
                 object-fit: cover;
             }
         }
