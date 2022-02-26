@@ -133,12 +133,6 @@ a:hover {
   background-color: teal;
 }
 
-#header .header-ellipse-img {
-  position: absolute;
-  right: -3px;
-  top: 19.4rem;
-}
-
 #header #header-navbar {
   padding: 1.31rem 0px 1.38rem 0px;
   margin-bottom: 2px solid;
@@ -401,7 +395,7 @@ a:hover {
 }
 
 #green-image .green-image-content {
-  background: url("../../Images/Feelgreen/feelgreenback.png") no-repeat center;
+  background: url(../../Images/Feelgreen/feelgreenback.png) no-repeat center;
   height: 39.125rem;
   width: 100%;
   background-size: cover;
@@ -418,8 +412,6 @@ a:hover {
 }
 
 #green-image .green-image-content .green-image-tt {
-  color: white;
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -429,6 +421,8 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: white;
+  position: relative;
 }
 
 #users {
@@ -572,11 +566,8 @@ a:hover {
      object-fit: cover;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-  * {
-    font-size: 12px;
-  }
+/*  for Resposive  */
+@media only screen and (max-width: 992px) {
   #header #header-navbar {
     padding: 2px 5px;
   }
@@ -612,6 +603,20 @@ a:hover {
     position: relative;
     bottom: 3.5rem;
   }
+}
+
+/* Small devices ( phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 12px;
+  }
+  #green-image .green-image-content {
+    background: url(../Images/Feelgreen/feelgreen-image-mobile.jpg) no-repeat center;
+    height: 39.125rem;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   #footer .footer-bottom {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -626,7 +631,33 @@ a:hover {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-/* Large devices (laptops/desktops, 992px and up) */
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 767px) and (min-width: 601px) {
+  * {
+    font-size: 14px;
+  }
+  #footer .footer-bottom div {
+    padding-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  * {
+    font-size: 14px;
+  }
+  #header {
+    padding-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 993px) {
+  * {
+    font-size: 14px;
+  }
+  #header button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 1rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

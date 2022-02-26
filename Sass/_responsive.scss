@@ -1,11 +1,5 @@
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-
-  // Font size for Small devices
-  * {
-    font-size: 12px;
-  }
-
+/*  for Resposive  */
+@media only screen and (max-width: 992px) {
 
   // Header for Mobile
   #header {
@@ -31,21 +25,18 @@
     }
   }
 
-  // Assortments section for Mobile
+  // Assortments section  for Resposive
   #assortments {
 
     // Assortsments section item cards
     .assortments-item-card {
       border-radius: 1rem;
       margin-top: 1.2rem;
-
-
     }
-
 
   }
 
-  // PlantSlider section for Mobile
+  // PlantSlider section  for Resposive
   #plantSlider {
 
 
@@ -58,7 +49,7 @@
     }
   }
 
-  // Important section for Mobile
+  // Important sectionfor  for Resposive
   #important {
 
     // Important section images
@@ -69,7 +60,7 @@
     }
   }
 
-  // User section  for Mobile
+  // User sectionfor  for Resposive
   #users {
     padding: 2rem;
 
@@ -80,10 +71,10 @@
     }
   }
 
-  // Footer section  for Mobile
+  // Footer section  for Resposive
   #footer {
 
-// Footer section link top
+    // Footer section link top
     .footer-top {
 
       // Footer  section  links title (Quick Links) 
@@ -93,35 +84,105 @@
 
       // Footer Top  links second
       .footer-top-links-s {
-      position: relative;
-      bottom: 3.5rem;
+        position: relative;
+        bottom: 3.5rem;
       }
 
-      // 
+
 
     }
 
-    // Fotter section bottom
-    .footer-bottom{
-      display: flex;
-      flex-direction: column;
-div{
-  margin-top: 1.5rem;
+  }
 }
 
 
+/* Small devices ( phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  // Font size for Small devices
+  * {
+    font-size: 12px;
+  }
+
+  // Green Image section for Mobile
+  #green-image {
+
+    .green-image-content {
+      background: url(../Images/Feelgreen/feelgreen-image-mobile.jpg) no-repeat center;
+      height: 39.125rem;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+
+  // Footer section  for Mobile
+  #footer {
+
+    // Fotter section bottom
+    .footer-bottom {
+      display: flex;
+      flex-direction: column;
+
+      div {
+        margin-top: 1.5rem;
+      }
     }
   }
 }
 
 
+// /* Medium devices (portrait tablets ,planset, 601px  up  up and till 767px) */
+@media only screen and (max-width: 767px) and (min-width: 601px) {
+
+  // Font size for   Medium devices
+  * {
+    font-size: 14px;
+  }
+
+  // Footer section  for Medium devices
+  #footer {
+
+    // Footer bottom
+    .footer-bottom {
+      div {
+        padding-left: 2rem;
+      }
+
+    }
+  }
+
+}
 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+// /* Laptop devices (laptops 768px up  up and till 992px)
+@media only screen and (max-width: 992px) and (min-width: 768px) {
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+ * {
+    font-size: 14px;
+  }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+#header{
+  padding-top: 1rem;
+
+}
+
+
+}
+
+// Large devices (993px  up and till 1199px)
+@media only screen and (max-width: 1199px) and (min-width: 993px){
+ 
+  
+  *{
+    font-size: 14px;
+  }
+
+  #header{
+
+    button{
+      display: flex;
+    margin-top: 1rem;
+    }
+  }
+}
