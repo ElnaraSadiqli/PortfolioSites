@@ -67,7 +67,7 @@
     // User section card
     .user-card {
       margin-top: 3rem;
-
+      margin-right: unset;
     }
   }
 
@@ -88,7 +88,11 @@
         bottom: 3.5rem;
       }
 
-
+      // Footer section form input
+      div:nth-last-child(1) {
+        display: flex;
+        justify-content: flex-start !important;
+      }
 
     }
 
@@ -97,21 +101,42 @@
 
 
 /* Small devices ( phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (min-width: 320px) {
 
   // Font size for Small devices
   * {
-    font-size: 12px;
+    font-size: 10px;
   }
+
+  // Assortments Section for Mobile
+  #assortments {
+
+    // Assortments second cards image
+    .assortments-right-first-card {
+      img {
+        margin-right: 2rem;
+      }
+    }
+
+  }
+
 
   // Green Image section for Mobile
   #green-image {
 
+     // Green Image section background image and font size
     .green-image-content {
       background: url(../Images/Feelgreen/feelgreen-image-mobile.jpg) no-repeat center;
       height: 39.125rem;
       width: 100%;
       object-fit: cover;
+
+      // Green Image section  font size for Mobile
+      .green-image-tt {
+        font-size: 4rem;
+      }
+
+
     }
   }
 
@@ -137,7 +162,7 @@
 
   // Font size for   Medium devices
   * {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   // Footer section  for Medium devices
@@ -158,31 +183,31 @@
 // /* Laptop devices (laptops 768px up  up and till 992px)
 @media only screen and (max-width: 992px) and (min-width: 768px) {
 
- * {
+  * {
     font-size: 14px;
   }
 
-#header{
-  padding-top: 1rem;
+  #header {
+    padding-top: 1rem;
 
-}
+  }
 
 
 }
 
 // Large devices (993px  up and till 1199px)
-@media only screen and (max-width: 1199px) and (min-width: 993px){
- 
-  
-  *{
+@media only screen and (max-width: 1199px) and (min-width: 993px) {
+
+
+  * {
     font-size: 14px;
   }
 
-  #header{
+  #header {
 
-    button{
+    button {
       display: flex;
-    margin-top: 1rem;
+      margin-top: 1rem;
     }
   }
 }

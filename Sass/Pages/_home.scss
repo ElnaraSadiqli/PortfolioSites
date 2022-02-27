@@ -2,8 +2,6 @@
 #header {
     background-color: $color-dark-green;
 
-   
-
     // <!-- Header Navigation bar of Header  -->
     #header-navbar {
         padding: 1.31rem 0px 1.38rem 0px;
@@ -23,7 +21,7 @@
                 margin-right: 2.875rem;
 
                 a {
-                    font: normal 600 1.38rem/1.56rem 'Public Sans', sans-serif;
+                    font: normal 600 1.38rem/1.56rem'Yanone Kaffeesatz', sans-serif;
                 }
             }
         }
@@ -108,7 +106,7 @@
         //Header Main Section Image of Header
         .header-main-image {
             object-fit: cover;
-        
+
         }
     }
 }
@@ -124,7 +122,7 @@
     // Assortments Header Title
     .assortments-title {
         @extend .page-section-titles;
-        padding-bottom: 5.5rem;
+        padding-bottom: 5rem;
 
     }
 
@@ -346,11 +344,15 @@
 
     // Green Image section content
     .green-image-content {
-        background: url(../../Images/Feelgreen/feelgreenback.png)   no-repeat center;
+        background: url(../Images/Feelgreen/feelgreenback.png) no-repeat center;
         height: 39.125rem;
         width: 100%;
         background-size: cover;
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
 
         // Green Image section gradient
         &:before {
@@ -364,13 +366,11 @@
 
         // Green image title
         .green-image-tt {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-           @extend .page-big-titles;
+
+            @extend .page-big-titles;
             color: $color-wht;
             position: relative;
-           
+
         }
     }
 }
@@ -446,23 +446,23 @@
         .footer-logo-top {
             object-fit: cover;
             height: 3.875rem;
-            
+
         }
 
         // Footer top info number
         .footer-top-num {
-            font: normal 500 1.25rem/2rem 'Public Sans', sans-serif;
+            font: normal 500 1.25rem/2rem 'Yanone Kaffeesatz', sans-serif;
             padding: 1.5rem 0px 0.8rem;
         }
 
         // Footer top info mail
         a {
-            font: normal 400 1rem/2rem 'Public Sans', sans-serif;
+            font: normal 400 1.2rem/2rem 'Yanone Kaffeesatz', sans-serif;
         }
 
         // Footer Top links title (Quick Links) 
         .footer-top-links-tt {
-            font: normal 500 1.5rem/1.5rem 'Public Sans', sans-serif;
+            font: normal 500 1.5rem/1.5rem 'Yanone Kaffeesatz', sans-serif;
             margin-bottom: 2rem;
         }
 
@@ -470,7 +470,7 @@
         .footer-top-links {
             li {
                 margin-bottom: 2.95rem;
-                font: normal 300 1rem/1.2rem 'Public Sans', sans-serif;
+                font: normal 300 1.3rem/1.2rem 'Yanone Kaffeesatz', sans-serif;
 
             }
         }
@@ -485,13 +485,13 @@
 
             // Footer top input label (title)
             label {
-                font: normal 400 1.2rem/2.8rem 'Public Sans', sans-serif;
+                font: normal 400 1.5rem/2.8rem 'Yanone Kaffeesatz', sans-serif;
                 margin-bottom: 1.5rem;
             }
 
             // Footer top input
             input {
-                font: normal 400 1rem/0.875rem 'Public Sans', sans-serif;
+                font: normal 400 1.2rem/0.875rem 'Yanone Kaffeesatz', sans-serif;
                 padding: 1.21rem 2rem 1.11rem 0.97rem;
 
                 &:focus {
@@ -504,7 +504,6 @@
             i {
                 margin-left: 8px;
                 font-size: 1.3rem;
-
             }
         }
     }
@@ -537,14 +536,25 @@
 
         // Footer Bottom Product
         .footer-bottom-product {
-          
-            font: normal 400 1rem/1.175rem 'Public Sans', sans-serif;
+            span {
+                font: normal 400 1.2rem/1.3rem 'Yanone Kaffeesatz', sans-serif;
+
+            }
 
             // Footer Logo Bottom
             .footer-logo-bottom {
                 height: 1.625rem;
                 object-fit: cover;
             }
+        }
+
+        // Footer Bottom Reserv
+        .footer-bottom-reserv {
+            p {
+                font: normal 400 1.2rem/1.3rem 'Yanone Kaffeesatz', sans-serif;
+
+            }
+
         }
     }
 

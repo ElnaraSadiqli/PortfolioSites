@@ -1,50 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Public+Sans:wght@200;300;400;500;600;700;800;900&family=Shizuru&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
 .card-user-txt-size, #users .user-card .user-card-impression {
-  font: normal 200 1.125rem/1.31rem 'Public Sans', sans-serif;
+  font: normal 300 1.3rem/1.31rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .card-user-tt-size, #users .user-card .user-card-tt, #users .user-card .user-card-tt b {
-  font: normal 400 1.75rem/2.06rem 'Public Sans', sans-serif;
+  font: normal 400 1.75rem/2.06rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .card-plant-txt-size, #assortments .assortments-left-card .assortments-left-content .assortments-left-plants-name li {
-  font: normal 200 1.31rem/2.84rem 'Public Sans', sans-serif;
+  font: normal 300 1.5rem/2.84rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .card-plant-tt-size, #assortments .assortments-left-card .assortments-left-content h4, #assortments .assortments-left-card .assortments-left-content h4 span {
-  font: normal 300 2.81rem/3.3rem 'Public Sans', sans-serif;
+  font: normal 300 2.81rem/3.3rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .card-plant-txt-size-sm, #assortments .assortments-item-card .assortments-right-content .assortments-right-plants-name li {
-  font: normal 400 1rem/1.47rem 'Public Sans', sans-serif;
+  font: normal 300 1.2rem/1.47rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .card-plant-tt-size-sm, #assortments .assortments-item-card .assortments-right-content h4, #assortments .assortments-item-card .assortments-right-content h4 span {
-  font: normal 300 2.19rem/2.57rem 'Public Sans', sans-serif;
+  font: normal 300 2.19rem/2.57rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .page-section-titles, #assortments .assortments-title, #important .important-tt, #users .users-tt {
-  font: normal 400 2.5rem/2.94rem 'Public Sans', sans-serif;
+  font: normal 400  2.8rem/2.94rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .page-big-titles, #header #header-main .header-main-content .header-main-content-tt, #header #header-main .header-main-content .header-main-content-tt span, #green-image .green-image-content .green-image-tt {
-  font: normal 600 6.25rem/10.13rem 'Public Sans', sans-serif;
+  font: normal 600  7rem/10.13rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .page-txt-size, #header #header-main .header-main-content p, #important .important-descrip p {
-  font: normal 200 1.75rem/2.06rem "Public Sans", sans-serif;
-}
-
-.product-price-size {
-  font: normal 300 1rem/1.175rem 'Public Sans', sans-serif;
-}
-
-.product-name-size {
-  font: normal 400 1.25rem/1.47rem 'Public Sans', sans-serif;
+  font: normal 300  1.9rem/2.06rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .btn-txt-size, #header #header-main .header-main-content .header-main-content-buttons button, #header #header-main .header-main-content .header-main-content-buttons button a {
-  font: normal 400 1.125rem/1.44rem 'Public Sans', sans-serif;
+  font: normal 400 1.3rem/1.44rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 ul li {
@@ -63,7 +55,7 @@ button {
           box-sizing: border-box;
   letter-spacing: 0em;
   font-size: 16px;
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 body {
@@ -82,51 +74,43 @@ a:hover {
 }
 
 .card-user-txt-size, #users .user-card .user-card-impression {
-  font: normal 200 1.125rem/1.31rem 'Public Sans', sans-serif;
+  font: normal 300 1.3rem/1.31rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .card-user-tt-size, #users .user-card .user-card-tt, #users .user-card .user-card-tt b {
-  font: normal 400 1.75rem/2.06rem 'Public Sans', sans-serif;
+  font: normal 400 1.75rem/2.06rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .card-plant-txt-size, #assortments .assortments-left-card .assortments-left-content .assortments-left-plants-name li {
-  font: normal 200 1.31rem/2.84rem 'Public Sans', sans-serif;
+  font: normal 300 1.5rem/2.84rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .card-plant-tt-size, #assortments .assortments-left-card .assortments-left-content h4, #assortments .assortments-left-card .assortments-left-content h4 span {
-  font: normal 300 2.81rem/3.3rem 'Public Sans', sans-serif;
+  font: normal 300 2.81rem/3.3rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .card-plant-txt-size-sm, #assortments .assortments-item-card .assortments-right-content .assortments-right-plants-name li {
-  font: normal 400 1rem/1.47rem 'Public Sans', sans-serif;
+  font: normal 300 1.2rem/1.47rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .card-plant-tt-size-sm, #assortments .assortments-item-card .assortments-right-content h4, #assortments .assortments-item-card .assortments-right-content h4 span {
-  font: normal 300 2.19rem/2.57rem 'Public Sans', sans-serif;
+  font: normal 300 2.19rem/2.57rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .page-section-titles, #assortments .assortments-title, #important .important-tt, #users .users-tt {
-  font: normal 400 2.5rem/2.94rem 'Public Sans', sans-serif;
+  font: normal 400  2.8rem/2.94rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .page-big-titles, #header #header-main .header-main-content .header-main-content-tt, #header #header-main .header-main-content .header-main-content-tt span, #green-image .green-image-content .green-image-tt {
-  font: normal 600 6.25rem/10.13rem 'Public Sans', sans-serif;
+  font: normal 600  7rem/10.13rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .page-txt-size, #header #header-main .header-main-content p, #important .important-descrip p {
-  font: normal 200 1.75rem/2.06rem "Public Sans", sans-serif;
-}
-
-.product-price-size {
-  font: normal 300 1rem/1.175rem 'Public Sans', sans-serif;
-}
-
-.product-name-size {
-  font: normal 400 1.25rem/1.47rem 'Public Sans', sans-serif;
+  font: normal 300  1.9rem/2.06rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 .btn-txt-size, #header #header-main .header-main-content .header-main-content-buttons button, #header #header-main .header-main-content .header-main-content-buttons button a {
-  font: normal 400 1.125rem/1.44rem 'Public Sans', sans-serif;
+  font: normal 400 1.3rem/1.44rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 #header {
@@ -154,7 +138,7 @@ a:hover {
 }
 
 #header #header-navbar .header-navbar-menu li a {
-  font: normal 600 1.38rem/1.56rem 'Public Sans', sans-serif;
+  font: normal 600 1.38rem/1.56rem "Yanone Kaffeesatz", sans-serif;
 }
 
 #header #header-main {
@@ -226,7 +210,7 @@ a:hover {
 }
 
 #assortments .assortments-title {
-  padding-bottom: 5.5rem;
+  padding-bottom: 5rem;
 }
 
 #assortments .assortments-item-card {
@@ -395,11 +379,20 @@ a:hover {
 }
 
 #green-image .green-image-content {
-  background: url(../../Images/Feelgreen/feelgreenback.png) no-repeat center;
+  background: url(../Images/Feelgreen/feelgreenback.png) no-repeat center;
   height: 39.125rem;
   width: 100%;
   background-size: cover;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #green-image .green-image-content:before {
@@ -412,15 +405,6 @@ a:hover {
 }
 
 #green-image .green-image-content .green-image-tt {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: white;
   position: relative;
 }
@@ -485,22 +469,22 @@ a:hover {
 }
 
 #footer .footer-top .footer-top-num {
-  font: normal 500 1.25rem/2rem 'Public Sans', sans-serif;
+  font: normal 500 1.25rem/2rem 'Yanone Kaffeesatz', sans-serif;
   padding: 1.5rem 0px 0.8rem;
 }
 
 #footer .footer-top a {
-  font: normal 400 1rem/2rem 'Public Sans', sans-serif;
+  font: normal 400 1.2rem/2rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 #footer .footer-top .footer-top-links-tt {
-  font: normal 500 1.5rem/1.5rem 'Public Sans', sans-serif;
+  font: normal 500 1.5rem/1.5rem 'Yanone Kaffeesatz', sans-serif;
   margin-bottom: 2rem;
 }
 
 #footer .footer-top .footer-top-links li {
   margin-bottom: 2.95rem;
-  font: normal 300 1rem/1.2rem 'Public Sans', sans-serif;
+  font: normal 300 1.3rem/1.2rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 #footer .footer-top .footer-top-links-s {
@@ -508,12 +492,12 @@ a:hover {
 }
 
 #footer .footer-top .footer-top-input label {
-  font: normal 400 1.2rem/2.8rem 'Public Sans', sans-serif;
+  font: normal 400 1.5rem/2.8rem 'Yanone Kaffeesatz', sans-serif;
   margin-bottom: 1.5rem;
 }
 
 #footer .footer-top .footer-top-input input {
-  font: normal 400 1rem/0.875rem 'Public Sans', sans-serif;
+  font: normal 400 1.2rem/0.875rem 'Yanone Kaffeesatz', sans-serif;
   padding: 1.21rem 2rem 1.11rem 0.97rem;
 }
 
@@ -556,14 +540,18 @@ a:hover {
   padding: 0.6rem 0.625rem;
 }
 
-#footer .footer-bottom .footer-bottom-product {
-  font: normal 400 1rem/1.175rem 'Public Sans', sans-serif;
+#footer .footer-bottom .footer-bottom-product span {
+  font: normal 400 1.2rem/1.3rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 #footer .footer-bottom .footer-bottom-product .footer-logo-bottom {
   height: 1.625rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#footer .footer-bottom .footer-bottom-reserv p {
+  font: normal 400 1.2rem/1.3rem 'Yanone Kaffeesatz', sans-serif;
 }
 
 /*  for Resposive  */
@@ -595,6 +583,7 @@ a:hover {
   }
   #users .user-card {
     margin-top: 3rem;
+    margin-right: unset;
   }
   #footer .footer-top .footer-top-links-tt {
     margin-top: 2rem;
@@ -603,12 +592,23 @@ a:hover {
     position: relative;
     bottom: 3.5rem;
   }
+  #footer .footer-top div:nth-last-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
 }
 
 /* Small devices ( phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (min-width: 320px) {
   * {
-    font-size: 12px;
+    font-size: 10px;
+  }
+  #assortments .assortments-right-first-card img {
+    margin-right: 2rem;
   }
   #green-image .green-image-content {
     background: url(../Images/Feelgreen/feelgreen-image-mobile.jpg) no-repeat center;
@@ -616,6 +616,9 @@ a:hover {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  #green-image .green-image-content .green-image-tt {
+    font-size: 4rem;
   }
   #footer .footer-bottom {
     display: -webkit-box;
@@ -633,7 +636,7 @@ a:hover {
 
 @media only screen and (max-width: 767px) and (min-width: 601px) {
   * {
-    font-size: 14px;
+    font-size: 12px;
   }
   #footer .footer-bottom div {
     padding-left: 2rem;
