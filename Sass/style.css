@@ -328,26 +328,42 @@ a:hover {
   padding-top: 5rem;
 }
 
-#plantSlider .plantSlider-card {
-  height: 15.2rem;
-  position: relative;
-  border-radius: 2.5rem;
-  background-color: #c4e2e2;
-}
-
-#plantSlider .plantSlider-card img {
-  position: absolute;
-  bottom: -3px;
-}
-
-#plantSlider .slick-prev:before,
-#plantSlider .slick-next:before {
+#plantSlider .slick-slider .slick-prev:before,
+#plantSlider .slick-slider .slick-next:before {
   display: none;
 }
 
-#plantSlider .button-plantSlider::before {
+#plantSlider .slick-slider .button-plantSlider::before {
   color: teal;
   font-size: 3rem;
+}
+
+#plantSlider .slick-slider .slick-list {
+  overflow-x: clip;
+  overflow-y: visible;
+}
+
+#plantSlider .slick-slider .slick-list .slick-slide .plantSlider-card {
+  height: 19rem;
+  width: 43rem;
+  border-radius: 2.5rem;
+  background-color: #c4e2e2;
+  position: relative;
+}
+
+#plantSlider .slick-slider .slick-list .slick-slide .plantSlider-card img {
+  position: absolute;
+  height: 21rem;
+  bottom: 5px;
+}
+
+#plantSlider .slick-slider .slick-list .slick-slide .plant-card {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #important {

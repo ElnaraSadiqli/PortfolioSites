@@ -270,33 +270,61 @@
 #plantSlider {
     padding-top: 5rem;
 
-    // plantSlider Crads //
-    .plantSlider-card {
-        height: 15.2rem;
-        position: relative;
-        border-radius: 2.5rem;
-        background-color: $color-somon;
+    // Plant section regular Slider properties
+    .slick-slider {
 
-        // plantSlider Card Image //
-        img {
-            position: absolute;
-            bottom: -3px;
+        // PlantSlider reboot buttons
+        .slick-prev:before,
+        .slick-next:before {
+            display: none;
         }
 
+        //  New buttons of PlantSlider
+        .button-plantSlider::before {
+            color: $color-dark-green;
+            font-size: 3rem;
+
+        }
+
+        // List  cards of PlantSlider 
+        .slick-list {
+            overflow-x: clip;
+            overflow-y: visible;
+
+            // Plant slider section Cards //
+            .slick-slide{
+            .plantSlider-card {
+            
+                height: 19rem;
+                width: 43rem;
+                border-radius: 2.5rem;
+                background-color: $color-somon;
+                position: relative;
+             
+                // plantSlider Cards Images
+                img {
+                    position: absolute;
+                    height: 21rem;
+                    bottom: 5px;
+                    
+    
+                }
+            }
+            .plant-card{
+                display: flex !important;
+                justify-content: center;
+            }
+        }
+    }
     }
 
-    // PlantSlider reboot buttons
-    .slick-prev:before,
-    .slick-next:before {
-        display: none;
-    }
 
-    // PlantSlider new buttons
-    .button-plantSlider::before {
-        color: $color-dark-green;
-        font-size: 3rem;
 
-    }
+
+
+
+
+
 }
 
 //..........Important section // 
